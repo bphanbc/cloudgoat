@@ -1,4 +1,4 @@
-#IAM Role
+#IAM Role - BP
 resource "aws_iam_role" "cg-banking-WAF-Role" {
   name = "cg-banking-WAF-Role-${var.cgid}"
   assume_role_policy = <<EOF
